@@ -163,6 +163,48 @@
             }
           },
           {
+            "name": "pwaf-rule-1",
+            "properties": {
+              "description": "Allow WSM UI",
+              "protocol": "Tcp",
+              "sourcePortRange": "*",
+              "destinationPortRange": "4849",
+              "sourceAddressPrefix": "[variables('alertlogicIPRange1')]",
+              "destinationAddressPrefix": "*",
+              "access": "Allow",
+              "priority": 2210,
+              "direction": "Inbound"
+            }
+          },
+          {
+            "name": "pwaf-rule-2",
+            "properties": {
+              "description": "Allow WSM UI",
+              "protocol": "Tcp",
+              "sourcePortRange": "*",
+              "destinationPortRange": "4849",
+              "sourceAddressPrefix": "[variables('alertlogicIPRange2')]",
+              "destinationAddressPrefix": "*",
+              "access": "Allow",
+              "priority": 2220,
+              "direction": "Inbound"
+            }
+          },
+          {
+            "name": "pwaf-rule-3",
+            "properties": {
+              "description": "Allow WSM UI",
+              "protocol": "Tcp",
+              "sourcePortRange": "*",
+              "destinationPortRange": "4849",
+              "sourceAddressPrefix": "[variables('alertlogicIPRange3')]",
+              "destinationAddressPrefix": "*",
+              "access": "Allow",
+              "priority": 2230,
+              "direction": "Inbound"
+            }
+          },
+          {
             "name": "update-rule-1",
             "properties": {
               "description": "Allow HTTPS",
@@ -294,7 +336,7 @@
               "description": "Allow Package Updates",
               "protocol": "*",
               "sourcePortRange": "*",
-              "destinationPortRange": "*",
+              "destinationPortRange": "80",
               "sourceAddressPrefix": "*",
               "destinationAddressPrefix": "*",
               "access": "Allow",
