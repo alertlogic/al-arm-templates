@@ -40,10 +40,10 @@ If you do not have a pre-existing Storage Account and Blob Container available, 
 
 #### Deploy from browser
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falertlogic%2Fal-arm-templates%2Fmaster%2Fthreat-manager%2Fshared_vhd%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Falertlogic%2Fal-arm-templates%2Fmaster%2Fthreat-manager%2Fmarketplace%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Falertlogic%2Fal-arm-templates%2Fmaster%2Fthreat-manager%2Fshared_vhd%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Falertlogic%2Fal-arm-templates%2Fmaster%2Fthreat-manager%2Fmarketplace%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
